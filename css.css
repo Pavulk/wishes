@@ -1,8 +1,8 @@
-/* Основной стиль для всего тела страницы */
+
 body {
     margin: 0;
     padding: 10px;
-    font-family: "Montserrat", cursive;
+    font-family: "Caveat", cursive;
     background: linear-gradient(to bottom, #f0e0d0, #decdbd);
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
   }
   
-  /* Контейнер, размещающий гифки в ряд */
+ 
   .gif-row {
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
     flex-wrap: wrap;
   }
   
-  /* Стили для боковых гифок */
+  
   .side-gif {
     width: 380px;
     height: auto;
@@ -30,8 +30,7 @@ body {
   .side-gif:hover {
     transform: scale(1.1);
   }
-  
-  /* Центральная карточка */
+
   .center-gif {
     max-width: 590px;
     width: 100%;
@@ -47,7 +46,6 @@ body {
     transform: scale(1.03);
   }
   
-  /* Контейнер с самой гифкой */
   .gif-container img {
     width: 100%;
     height: auto;
@@ -55,7 +53,7 @@ body {
     border-bottom: 1px solid #ddd;
   }
   
-  /* Текст внутри центральной карточки */
+
   .text-container {
     padding: 10px;
   }
